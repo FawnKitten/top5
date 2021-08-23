@@ -1,0 +1,31 @@
+
+body {
+    background-color: #ffe6e6;
+}
+
+#title {
+    color: #008AFF;
+    font-size: 50px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#subtitle {
+    color: #00D3FF;
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+li {
+    margin: 50px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
