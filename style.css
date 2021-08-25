@@ -23,9 +23,41 @@ img:hover {
     opacity: 1;
 }
 
-li {
+.language-name {
     margin: 50px;
     padding: 0px;
     font-size: 20px;
     font-family: 'Source Code Pro', monospace;
+    color: blue;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    background-color: #fff;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+.navitem a {
+    font-family: "Source Code Pro", monospace;
+    font-size: 30px;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.active a {
+    background-color: #456;
+    color: #fc3;
+}
+
+.navitem a:hover {
+    background-color: #555;
+    color: white;
 }

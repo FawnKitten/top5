@@ -9,18 +9,28 @@
         <link href="style.css" rel="stylesheet" type="text/css"/>
 	</head>
 	<body>
+        <!-- vertical navigation bar -->
+        <ul class="navbar">
+            <li class="navitem active"><a href="index.html">home</a></li>
+            <li class="navitem"><a href="functional.html">functional</a></li>
+            <li class="navitem"><a href="imperative.html">imperative</a></li>
+            <li class="navitem"><a href="sources.html">sources</a></li>
+        </ul>
+
         <!-- basic H1-->
-        <h1 id="title">My top 5 favorite programming languages</h1>
-        <h3 id="subtitle">click on the images to get to the programming languages' web sites</h3>
-        <ol>
-            <li><p>Python</p></li>
-            <a href="https://www.python.org"><img height="100" alt="Python logo" src="PythonLogo.png"></a>
-            <li><p>Clojure</p></li>
-            <a href="https://clojure.org"><img height="100" src="Clojure_logo.svg.png" alt="Clojure logo"></a>
-            <li><p>C++</p></li><a href="https://isocpp.org"></li><img height="100" src="CppLogo.png" alt="C++ logo"></a>
-            <li><p>C</p></li>
-            <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img height="100" src="Clogo.png" alt="c logo"></a>
-            <li><p>EcmaScript</p></li><a href="https://en.wikipedia.org/wiki/ECMAScript"><img height="100" src="es-ecmascript-logo.png" alt="es logo"></a>
-        </ol>
+        <div style="margin-left:216px;padding=1px 16px;height=1000px;">
+            <h1 id="title">My top 5 favorite programming languages</h1>
+            <h3 id="subtitle">click on the images to get to the programming languages' web sites</h3>
+            <ol>
+                <li class="language-name"><p>Python</p></li>
+                <a href="https://www.python.org"target="_blank"><img height="100" alt="Python logo" src="PythonLogo.png"></a>
+                <li class="language-name"><p>Clojure</p></li>
+                <a href="https://clojure.org" target="_blank"><img height="100" src="Clojure_logo.svg.png" alt="Clojure logo"></a>
+                <li class="language-name"><p>C++</p><a href="https://isocpp.org" target="_blank"></li><img height="100" src="CppLogo.png" alt="C++ logo"></a>
+                <li class="language-name"><p>C</p></li>
+                <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"><img height="100" src="Clogo.png" alt="c logo"></a>
+                <li class="language-name"><p>EcmaScript</p></li><a href="https://en.wikipedia.org/wiki/ECMAScript" target="_blank"><img height="100" src="es-ecmascript-logo.png" alt="es logo"></a>
+            </ol>
+        </div>
 	</body>
 </html>
