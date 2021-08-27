@@ -5,6 +5,7 @@ body {
 
 #title {
     color: #008AFF;
+    margin-top: -0px;
     font-size: 50px;
     font-family: 'Source Code Pro', monospace;
 }
@@ -15,12 +16,21 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
+#about {
+}
+
 img {
     opacity: 0.5;
 }
 
 img:hover {
     opacity: 1;
+}
+
+.content {
+    margin-left: 216px;
+    padding: 1px 16px;
+    height: 1000px;
 }
 
 .language-name {
@@ -33,7 +43,7 @@ img:hover {
 
 .navbar {
     list-style-type: none;
-    margin: 0px;
+    margin: -10px;
     padding: 0px;
     width: 200px;
     background-color: #fff;
@@ -51,6 +61,14 @@ img:hover {
     color: black;
     text-align: center;
 }
+
+/* make the work, a problem for an other day */
+/*
+.navitem:first-child a {
+padding: 0px;
+         margin-top: -20px;
+}
+*/
 
 .active a {
     background-color: #456;
