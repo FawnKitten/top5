@@ -16,7 +16,10 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
-#about {
+#content-text {
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+    background: #FFF;
 }
 
 img {
