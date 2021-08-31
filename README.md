@@ -6,6 +6,6 @@ My Top 5 Favorite Programming Languages site
 
 TODO:
 ----
-[ ] add a functional section
-[ ] add an OO/imperative section
-[ ] add reason for the choice of langs
+- [ ] add a functional section
+- [ ] add an OO/imperative section
+- [ ] add reason for the choice of langs
