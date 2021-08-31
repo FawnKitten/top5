@@ -1,6 +1,6 @@
 
 body {
-    background-color: #ffe6e6;
+    background-color: #FAE2C0;
 }
 
 #title {
@@ -11,7 +11,7 @@ body {
 }
 
 #subtitle {
-    color: #00D3FF;
+    color: #1BA8FA;
     font-size: 30px;
     font-family: 'Source Code Pro', monospace;
 }
@@ -19,9 +19,20 @@ body {
 #content-text {
     font-size: 20px;
     font-family: 'Source Code Pro', monospace;
-    background: #FFF;
+    background-color: #FCEADC;
+    width: 90%;
+    padding: 5px 15px;
 }
 
+#terminology-title {
+}
+
+#term-list {
+}
+
+#term-element{
+}
+ 
 img {
     opacity: 0.5;
 }
@@ -41,7 +52,7 @@ img:hover {
     padding: 0px;
     font-size: 20px;
     font-family: 'Source Code Pro', monospace;
-    color: blue;
+    color: #7700FF;
 }
 
 .navbar {
@@ -49,7 +60,7 @@ img:hover {
     margin: -10px;
     padding: 0px;
     width: 200px;
-    background-color: #fff;
+    background-color: #FFDBDB;
     height: 100%;
     position: fixed;
     overflow: auto;
