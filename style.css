@@ -24,15 +24,6 @@ body {
     padding: 5px 15px;
 }
 
-#terminology-title {
-}
-
-#term-list {
-}
-
-#term-element{
-}
- 
 img {
     opacity: 0.5;
 }
@@ -48,7 +39,7 @@ img:hover {
 }
 
 .language-name {
-    margin: 50px;
+    /* margin: 50px; */
     padding: 0px;
     font-size: 20px;
     font-family: 'Source Code Pro', monospace;
@@ -85,11 +76,19 @@ padding: 0px;
 */
 
 .active a {
-    background-color: #456;
-    color: #fc3;
+    background-color: #abf;
+    color: #afd;
 }
 
 .navitem a:hover {
     background-color: #555;
-    color: white;
+    color: #FFF;
+}
+
+.term-link:link {
+    color: #779;
+}
+
+.term-link:visited {
+    color: #559;
 }
