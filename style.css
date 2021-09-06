@@ -24,12 +24,18 @@ body {
     padding: 5px 15px;
 }
 
-img {
+.lang-logo {
     opacity: 0.5;
+    padding-bottom: 30px;
 }
 
-img:hover {
+.lang-logo:hover {
     opacity: 1;
+}
+
+.code-example {
+    opacity: 1;
+    padding-left: 30px;
 }
 
 .content {
@@ -50,11 +56,17 @@ img:hover {
     list-style-type: none;
     margin: -10px;
     padding: 0px;
-    width: 200px;
+    width: 230px;
     background-color: #FFDBDB;
     height: 100%;
     position: fixed;
     overflow: auto;
+}
+
+.content {
+    margin-left: 236px;
+    padding: 1px 16px;
+    height: 1000px;
 }
 
 .navitem a {
