@@ -62,6 +62,19 @@ body {
     overflow: auto;
 }
 
+.list-title {
+     font-size: 30px;
+     margin-bottom: 10px;   
+}
+
+.list-elements {
+    margin-top: 0px;
+}
+
+.list-elements strong {
+    font-size:25px;
+}
+
 .content {
     margin-left: 236px;
     padding: 1px 16px;
@@ -85,6 +98,8 @@ padding: 0px;
          margin-top: -20px;
 }
 */
+
+
 
 .active a {
     background-color: #abf;
